@@ -1,31 +1,29 @@
----
-title: Basic writing and formatting syntax
-intro: Create sophisticated formatting for your prose and code on GitHub with simple syntax.
+
+#title: Basic writing and formatting syntax
+##intro: Create sophisticated formatting for your prose and code on GitHub with simple syntax.
 redirect_from:
-  - /articles/basic-writing-and-formatting-syntax
+###/articles/basic-writing-and-formatting-syntax
   - /github/writing-on-github/basic-writing-and-formatting-syntax
 versions:
   fpt: '*'
   ghes: '*'
   ghae: '*'
   ghec: '*'
-shortTitle: Basic formatting syntax
----
 ## Headings
 
 To create a heading, add one to six `#` symbols before your heading text. The number of `#` you use will determine the size of the heading.
 
-```markdown
+>markdown
 # The largest heading
 ## The second largest heading
 ###### The smallest heading
-```
 
-![Rendered H1, H2, and H6 headings](/assets/images/help/writing/headings-rendered.png)
+
+[%Rendered H1, H2, and H6 headings](/assets/images/help/writing/headings-rendered.png)
 
 ## Styling text
 
-You can indicate emphasis with bold, italic, or strikethrough text in comment fields and `.md` files.  
+You can indicate emphasis with bold, italic, or strikethrough text in comment fields and .md files.  
 
 | Style | Syntax | Keyboard shortcut | Example | Output |
 | --- | --- | --- | --- | --- |
@@ -37,15 +35,15 @@ You can indicate emphasis with bold, italic, or strikethrough text in comment fi
 
 ## Quoting text
 
-You can quote text with a `>`.
+You can quote text with a 
 
-```markdown
+#markdown
 Text that is not a quote
 
-> Text that is a quote
-```
+##Text that is a quote
 
-![Rendered quoted text](/assets/images/help/writing/quoted-text-rendered.png)
+
+[%Rendered quoted text](/assets/images/help/writing/quoted-text-rendered.png)
 
 {% tip %}
 
@@ -57,11 +55,11 @@ Text that is not a quote
 
 You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted.{% ifversion fpt or ghae-next or ghes > 3.1 or ghec %} You can also press the `command` or `Ctrl` + `e` keyboard shortcut to insert the backticks for a code block within a line of Markdown.{% endif %}
 
-```markdown
+#markdown
 Use `git status` to list all new or modified files that haven't yet been committed.
-```
 
-![Rendered inline code block](/assets/images/help/writing/inline-code-rendered.png)
+
+#Rendered inline code block](/assets/images/help/writing/inline-code-rendered.png)
 
 To format code or text into its own distinct block, use triple backticks.
 
@@ -331,7 +329,7 @@ For more information, see Daring Fireball's "[Markdown Syntax](https://daringfir
 
 {% endif %}
 
-## Further reading
+#Further reading
 
 - [{% data variables.product.prodname_dotcom %} Flavored Markdown Spec](https://github.github.com/gfm/)
 - "[About writing and formatting on GitHub](/articles/about-writing-and-formatting-on-github)"
